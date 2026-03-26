@@ -1,0 +1,35 @@
+title: 我的交易笔记
+description: 记录每一笔交易的逻辑与复盘
+theme: minimal-mistakes-jekyll # 使用远程主题
+
+minimal_mistakes_skin: "air" # 皮肤风格
+search: true # 开启搜索
+
+# 开启侧边栏目录 (TOC)
+toc: true
+toc_label: "本页目录"
+toc_icon: "list-ul"
+
+# 导航菜单
+nav:
+  - title: "交易策略"
+    url: /strategies/
+  - title: "复盘记录"
+    url: /reviews/
+  - title: "关于我"
+    url: /about/
+
+# 默认布局
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false # 不需要评论可关闭
+      share: false
+      related: true
+      sidebar:
+        nav: "docs" # 如果需要侧边栏导航
