@@ -1,6 +1,12 @@
 title: 我的交易笔记
 description: 记录每一笔交易的逻辑与复盘
-theme: minimal-mistakes-jekyll # 使用远程主题
+remote_theme: mmistakes/minimal-mistakes@4.26.2
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+
 
 minimal_mistakes_skin: "air" # 皮肤风格
 search: true # 开启搜索
